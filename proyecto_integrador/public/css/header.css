@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.ofertas-deslizando {
+    background-color: black;
+    color: whitesmoke;
+    overflow:hidden;
+}
+.ofertas-deslizando p {
+    display: inline-block;
+    animation: textoMov 5s linear infinite;
+    white-space: nowrap;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+
+}
+.logo {
+    width: 70px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: whitesmoke;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffcc00;
+}
+
+.input-group-text {
+    background-color: whitesmoke;
+    border: none;
+    color: whitesmoke;
+}
+
+.input-group input {
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-bottom: 2px solid #ffcc00;
+}
+
+.badge {
+    font-size: 0.75rem;
+}
+@keyframes textoMov {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+header {
+    position: sticky;  /* Hace que el header se quede pegado a la parte superior */
+    top: 0;            /* Asegura que esté en la parte superior */
+    z-index: 1000;     /* Asegura que el header esté por encima de otros elementos */
+    background-color: transparent; /* Fondo transparente (ya no negro) */
+    box-shadow: none;   /* Elimina cualquier sombra si la hay */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

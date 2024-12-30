@@ -1,0 +1,36 @@
+.Fondo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+
+.container . section-title{
+    text-align: center;
+}
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+.section-title::before,
+.section-title::after{
+    content: "";
+    flex: 1;
+    height:2px;
+    background-color:green;
+}
+.section-title span{
+    font-size:24px;
+    font-weight:bold;
+    color:#444444;
+    text-transform: uppercase;
+}
+.ImagenesHistoria{
+    border-radius: 30px;
+    box-shadow:10px 10px 15px rgba(0,0,0,0.5);
+}

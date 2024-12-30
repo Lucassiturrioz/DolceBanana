@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.producto-detail {
+    text-align: left;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.producto-detail h3 {
+    margin-bottom: 1rem;
+}
+
+.producto-detail p {
+    margin: 0.5rem 0;
+}
+
+.producto-detail button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto-detail button:hover {
+    background-color: #555;
+}
+
+.compras-list {
+    text-align: left;
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.perfil-info, .producto-form, .carrito-list {
+    text-align: left;
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.perfil-info label, .producto-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.perfil-info input, .producto-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.perfil-info button, .producto-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.perfil-info button:hover, .producto-form button:hover {
+    background-color: #555;
+}
+
+.productos-list, .carrito-list {
+    text-align: left;
+}
+
+.producto-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.producto-item button {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .producto-item button:hover {
+    background-color: #555;
+} */
+
+.fotoProd {
+    width: 80px;
+}
+
+.botonAgregar {
+    font-size: 20px;
+    border-radius: 60px;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+#contenedorProductos {
+    position: relative;
+}
+
+.descargaPDF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
